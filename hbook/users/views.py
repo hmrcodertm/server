@@ -45,6 +45,7 @@ class LoginGoogleView(KnoxLoginView):
         if token == '#': 
             return response.Response({'token':'Tha fuck was that'})
         try:
+            print("373414904977-n4id010pcju9nb7e8hj992ceph90ag1l.apps.googleusercontent.com")
             idinfo = id_token.verify_oauth2_token(token, requests.Request(), "373414904977-n4id010pcju9nb7e8hj992ceph90ag1l.apps.googleusercontent.com")
             if idinfo['iss'] not in ['accounts.google.com', 'https://accounts.google.com']:
                 raise ValueError('Wrong issuer.')
