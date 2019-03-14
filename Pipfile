@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[requires]
+
+[packages]
+"psycopg2-binary" = "*"
+django-heroku = "*"
+gunicorn = "*"
+graphene-django = "*"
+django-cors-headers = "*"
+djangorestframework = "*"
+markdown = "*"
+django-filter = "*"
+django-rest-knox = "*"
+google-api-python-client = "*"
+google-auth-httplib2 = "*"
+google-auth-oauthlib = "*"
+
+[dev-packages]
+pylint = "*"
