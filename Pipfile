@@ -5,6 +5,7 @@ name = "pypi"
 
 [requires]
 
+
 [packages]
 "psycopg2-binary" = "*"
 django-heroku = "*"

@@ -46,7 +46,8 @@ INSTALLED_APPS = [
     'knox',
     # Inside apps
     'graphene_django',
-    'hbook.users'
+    'hbook.users',
+    'hbook.users.appointments'
 ]
 
 MIDDLEWARE = [
